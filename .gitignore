@@ -1,0 +1,20 @@
+# 环境变量
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# 图片存储
+storage/
+
+# 系统文件
+.DS_Store
