@@ -1,20 +1,42 @@
 # 环境变量
 .env
+.env.local
+.env.*.local
 
 # Python
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
 *.egg-info/
+*.egg
 .venv/
+venv/
 dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+*.log
 
 # Node
 node_modules/
 frontend/dist/
 frontend/.vite/
+frontend/coverage/
+*.local
 
 # 图片存储
 storage/
 
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
 # 系统文件
 .DS_Store
+Thumbs.db
